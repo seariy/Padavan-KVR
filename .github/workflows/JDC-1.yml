@@ -442,7 +442,7 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.SEARIY_TOKEN }}
         body: |
            > ### 编译时间：${{ env.build_time }}
 
